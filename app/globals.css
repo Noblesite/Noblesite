@@ -1,0 +1,27 @@
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  @apply bg-gradient-to-b from-blue-50 to-gray-100;
+}
+
+/* Customize Swiper autoplay dots (if needed) */
+.swiper-pagination-bullet {
+  background-color: #3490dc; /* Tailwind blue */
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #1d4ed8; /* Tailwind dark blue */
+}
+
+
+
