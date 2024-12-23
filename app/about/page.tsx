@@ -16,17 +16,17 @@ export default function About() {
         <span className="font-bold">TypeScript</span>, enabling fast and scalable applications that prioritize user experience.
       </p>
       <p className="text-lg text-gray-700 mt-4">
-        Recently, I’ve focused on <span className="font-bold">transforming automation workflows by integrating agentic AI</span>, paving the way for smarter, more agile enterprise solutions. This focus has enabled me to streamline workflows, increase productivity, and improve decision-making in dynamic environments.
+        Recently, I&apos;ve focused on <span className="font-bold">transforming automation workflows by integrating agentic AI</span>, paving the way for smarter, more agile enterprise solutions. This focus has enabled me to streamline workflows, increase productivity, and improve decision-making in dynamic environments.
       </p>
       <p className="text-lg text-gray-700 mt-4">
-        Throughout my career, I’ve worked with <span className="font-bold">multiple Fortune 500 companies</span>, delivering impactful solutions for large-scale mobile deployments, automation platforms, and enterprise applications. My technical expertise spans{" "}
+        Throughout my career, I&apos;ve worked with <span className="font-bold">multiple Fortune 500 companies</span>, delivering impactful solutions for large-scale mobile deployments, automation platforms, and enterprise applications. My technical expertise spans{" "}
         <span className="font-bold">C++</span>, <span className="font-bold">C#.NET</span>, <span className="font-bold">Java</span>,{" "}
         <span className="font-bold">Python</span>, <span className="font-bold">Objective-C</span>, <span className="font-bold">Swift</span>, and{" "}
         <span className="font-bold">Kotlin</span>, alongside cloud platforms like{" "}
         <span className="font-bold">Azure</span> and <span className="font-bold">AWS</span>.
       </p>
       <p className="text-lg text-gray-700 mt-4">
-        Beyond my professional endeavors, I’m a <span className="font-bold">dedicated father</span> and <span className="font-bold">lifelong learner</span>, always striving to stay ahead of industry trends. Whether it’s fine-tuning mobile workflows, optimizing RFID solutions, or crafting intuitive applications, I take pride in merging creativity with innovation to solve real-world problems.
+        Beyond my professional endeavors, I&apos;m a <span className="font-bold">dedicated father</span> and <span className="font-bold">lifelong learner</span>, always striving to stay ahead of industry trends. Whether it is fine-tuning mobile workflows, optimizing RFID solutions, or crafting intuitive applications, I take pride in merging creativity with innovation to solve real-world problems.
       </p>
     </div>
   
