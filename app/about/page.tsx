@@ -1,5 +1,6 @@
-import { FaReact, FaJs, FaCss3Alt, FaNodeJs, FaPython, FaAndroid, FaWindows, FaApple } from 'react-icons/fa';
-import { SiTypescript, SiNextdotjs, SiTailwindcss, SiAmazonwebservices} from 'react-icons/si';
+import { FaReact, FaAndroid, FaWindows, FaApple } from 'react-icons/fa';
+import { SiNextdotjs} from 'react-icons/si';
+import Image from 'next/image';
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
     <h2 className="text-4xl font-bold text-blue-600">About Me</h2>
     <div className="max-w-3xl text-center mt-6">
       <p className="text-lg text-gray-700">
-        Hi, I'm <span className="font-bold">Jonathon D. Poe</span>, a seasoned{" "}
+        Hi, I&apos;m <span className="font-bold">Jonathon D. Poe</span>, a seasoned{" "}
         <span className="font-bold">Software & Enterprise Mobile Management Engineer</span> with over 15 years of experience in{" "}
         <span className="font-bold">enterprise mobility</span>, <span className="font-bold">automation</span>, and{" "}
         <span className="font-bold">front-end design</span>. I craft intuitive, responsive user interfaces using{" "}
@@ -42,11 +43,13 @@ export default function About() {
       </div>
       {/* New Icons */}
       <div className="flex flex-col items-center">
-        <img src="/icons/zebra.png" alt="Zebra" className="w-10 h-10" />
+        <Image src="/icons/zebra.png" alt="Zebra" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">Zebra</span>
       </div>
       <div className="flex flex-col items-center">
-        <img src="/icons/samsung.svg" alt="Samsung" className="w-10 h-10" />
+        <Image src="/icons/samsung.svg" alt="Samsung" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">Samsung</span>
       </div>
       <div className="flex flex-col items-center">
@@ -58,43 +61,53 @@ export default function About() {
         <span className="mt-2 text-gray-700">iOS</span>
       </div>
       <div className="flex flex-col items-center">
-        <img src="/icons/xcode.svg" alt="Xcode" className="w-10 h-10" />
+        <Image src="/icons/xcode.svg" alt="Xcode" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">Xcode</span>
       </div>
       <div className="flex flex-col items-center">
-        <img src="/icons/androidstudio.png" alt="Android Studio" className="w-10 h-10" />
+        <Image src="/icons/androidstudio.png" alt="Android Studio" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">Android Studio</span>
       </div>
       <div className="flex flex-col items-center">
-        <img src="/icons/vscode.svg" alt="Visual Studio Code" className="w-10 h-10" />
+        <Image src="/icons/vscode.svg" alt="Visual Studio Code" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">Visual Studio Code</span>
       </div>
       <div className="flex flex-col items-center">
-        <img src="/icons/visualstudio.png" alt="Visual Studio" className="w-10 h-10" />
+        <Image src="/icons/visualstudio.png" alt="Visual Studio" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">Visual Studio</span>
       </div>
       <div className="flex flex-col items-center">
-        <img src="/icons/airwatch.png" alt="AirWatch" className="w-10 h-10" />
+        <Image src="/icons/airwatch.png" alt="AirWatch" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">AirWatch</span>
       </div>
       <div className="flex flex-col items-center">
-        <img src="/icons/intune.png" alt="Intune" className="w-10 h-10" />
+        <Image src="/icons/intune.png" alt="Intune" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">Intune</span>
       </div>
       <div className="flex flex-col items-center">
-        <img src="/icons/jamf.png" alt="Jamf" className="w-10 h-10" />
+        <Image src="/icons/jamf.png" alt="Jamf" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">Jamf</span>
       </div>
       <div className="flex flex-col items-center">
-        <img src="/icons/ollama.png" alt="Ollama" className="w-10 h-10" />
+        <Image src="/icons/ollama.png" alt="Ollama" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">Ollama</span>
       </div>
       <div className="flex flex-col items-center">
-        <img src="/icons/aws.png" alt="AWS" className="w-10 h-10" />
+        <Image src="/icons/aws.png" alt="AWS" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">AWS</span>
       </div>
       <div className="flex flex-col items-center">
-        <img src="/icons/azure.png" alt="Azure" className="w-10 h-10" />
+        <Image src="/icons/azure.png" alt="Azure" width={40}
+            height={40} />
         <span className="mt-2 text-gray-700">Azure</span>
       </div>
       <div className="flex flex-col items-center">
