@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👋 Hi, I'm Jonathon Poe (a.k.a. Noblesite)
 
-## Getting Started
+I'm a Mobile Solutions Architect and Senior Software Engineer with 10+ years of experience designing and deploying enterprise mobile solutions at scale. I specialize in:
 
-First, run the development server:
+- 🔐 Mobile Security (MDM/MAM – Intune, Workspace ONE, Knox)
+- 📱 Native iOS & Android development
+- 🔄 Enterprise automation (API integration, device workflows)
+- 🧠 Custom LLM workflows & AI tools
+- 🔧 Diagnostic & migration utilities for mobile fleets
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> ⚠️ **Refactoring in progress:** I'm actively reviewing, modernizing, and publishing both legacy and recent projects to GitHub. This portfolio is growing week by week as I surface and update the full scope of my work.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Projects Published So Far
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+These are the first of many projects being refactored and released from my professional archive. I'm currently rebuilding and publishing legacy and active tools to provide a full picture of my development work.
 
-## Learn More
+### 🛠 [WorkspaceONE-To-Intune-iOS](https://github.com/Noblesite/WorkspaceONE-To-Intune-iOS)  
+An enterprise migration tool for gracefully unenrolling iOS devices from Workspace ONE and onboarding them to Microsoft Intune. Handles both COPE and BYOD flows.
 
-To learn more about Next.js, take a look at the following resources:
+### 🌐 [EasyRest](https://github.com/Noblesite/EasyRest)  
+A lightweight REST API tester for iOS, inspired by Postman. Built in Objective-C and optimized for mobile-first debugging.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 💬 [XMPPMessenger-iOS](https://github.com/Noblesite/XMPPMessenger-iOS)  
+A real-time chat app styled after Facebook Messenger, using XMPP protocol for secure messaging.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🎮 [The Proposal](https://github.com/Noblesite/The_Proposal)  
+A Swift SpriteKit-based mini-game that ends with a marriage proposal. Lightweight and heartwarming.
 
-## Deploy on Vercel
+### 🔍 [IPCDeviceUtility](https://github.com/Noblesite/IPCDeviceUtility)  
+An internal diagnostic and firmware flashing tool for IPC sled devices with MSR and scanner tests.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧰 Tech I Love Working With
+
+- iOS (Swift, Objective-C), Android (Java, Kotlin)
+- Python (automation, REST APIs, AI agents)
+- Node.js, FastAPI, Flask
+- GitHub Actions, CI/CD pipelines
+- LLMs, vector databases, LangChain, QLoRA
+
+---
+
+## 📫 How to Reach Me
+
+- 🌐 [noblesite.net](https://noblesite.net)
+- 💼 [LinkedIn](https://www.linkedin.com/in/jonathonpoe/)
+- 📧 jonathon [at] noblesite.net
+
+---
+
+_“Build fast, stay secure, and leave tech cleaner than you found it.”_
