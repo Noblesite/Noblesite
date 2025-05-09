@@ -1,54 +1,65 @@
 # 👋 Hi, I'm Jonathon Poe (a.k.a. Noblesite)
 
-I'm a Mobile Solutions Architect and Senior Software Engineer with 15+ years of experience designing and deploying enterprise mobile solutions at scale. I specialize in:
+**Mobile Solutions Architect** & **Senior Software Engineer** with 15+ years of experience designing scalable enterprise mobility tools, automation platforms, and LLM-based assistant systems.
+
+I specialize in:
 
 - 🔐 Mobile Security (MDM/MAM – Intune, Workspace ONE, Knox)
 - 📱 Native iOS & Android development
-- 🔄 Enterprise automation (API integration, device workflows)
-- 🧠 Custom LLM workflows & AI tools
-- 🔧 Diagnostic & migration utilities for mobile fleets
+- 🔄 Enterprise automation (API integration, workflows, device diagnostics)
+- 🧠 LLM-based tooling (QLoRA, LangChain, custom vector pipelines)
 
-> ⚠️ **Refactoring in progress:** I'm actively reviewing, modernizing, and publishing both legacy and recent projects to GitHub. This portfolio is growing week by week as I surface and update the full scope of my work.
+> ⚠️ **Actively publishing** refactored tools from my enterprise portfolio. Follow along as I surface, modernize, and document years of technical work.
+
+---
+
+## 🚀 Featured Project
+
+### 🖨️ [EpsonLink](https://github.com/Noblesite/EpsonLink)  
+A fully native Android WebView wrapper for USB-connected Epson receipt printers using the ePOS2 SDK. Built for Android Enterprise deployments with a clean MVVM architecture and structured JSON print support.
+
+### 🧪 [WorkspaceONE Staging Utility](https://github.com/Noblesite/WorkspaceOne-Staging-Utility)  
+A dynamic staging tool designed to configure and provision devices via MDM assignment groups, tag logic, and relay APIs.
+
+### 🧠 [WorkspaceOne Python SDK Wrapper](https://github.com/Noblesite/workspace_one_python)  
+Python-based automation framework for interacting with Workspace ONE UEM APIs, featuring DTO mapping and REST abstraction.
 
 ---
 
 ## 🛠️ Projects Published So Far
 
-These are the first of many projects being refactored and released from my professional archive. I'm currently rebuilding and publishing legacy and active tools to provide a full picture of my development work.
+- 📦 [WorkspaceONE-To-Intune-iOS](https://github.com/Noblesite/WorkspaceONE-To-Intune-iOS)  
+  Seamless COPE/BYOD migration utility for iOS MDM transitions.
 
-### 🛠 [WorkspaceONE-To-Intune-iOS](https://github.com/Noblesite/WorkspaceONE-To-Intune-iOS)  
-An enterprise migration tool for gracefully unenrolling iOS devices from Workspace ONE and onboarding them to Microsoft Intune. Handles both COPE and BYOD flows.
+- 🔬 [EasyRest](https://github.com/Noblesite/EasyRest)  
+  Lightweight REST client for debugging iOS APIs.
 
-### 🌐 [EasyRest](https://github.com/Noblesite/EasyRest)  
-A lightweight REST API tester for iOS, inspired by Postman. Built in Objective-C and optimized for mobile-first debugging.
+- 💬 [XMPPMessenger-iOS](https://github.com/Noblesite/XMPPMessenger-iOS)  
+  Secure real-time chat app built on XMPP.
 
-### 💬 [XMPPMessenger-iOS](https://github.com/Noblesite/XMPPMessenger-iOS)  
-A real-time chat app styled after Facebook Messenger, using XMPP protocol for secure messaging.
+- 💍 [The Proposal](https://github.com/Noblesite/The_Proposal)  
+  SpriteKit game with a surprise engagement ending.
 
-### 🎮 [The Proposal](https://github.com/Noblesite/The_Proposal)  
-A Swift SpriteKit-based mini-game that ends with a marriage proposal. Lightweight and heartwarming.
-
-### 🔍 [IPCDeviceUtility](https://github.com/Noblesite/IPCDeviceUtility)  
-An internal diagnostic and firmware flashing tool for IPC sled devices with MSR and scanner tests.
+- 🧪 [IPCDeviceUtility](https://github.com/Noblesite/IPCDeviceUtility)  
+  Internal sled diagnostic tool with MSR/scanner/firmware support.
 
 ---
 
-## 🧰 Tech I Love Working With
+## 🧰 Tools I Work With
 
-- iOS (Swift, Objective-C), Android (Java, Kotlin)
-- Python (automation, REST APIs, AI agents)
-- Node.js, FastAPI, Flask
-- GitHub Actions, CI/CD pipelines
-- LLMs, vector databases, LangChain, QLoRA
-
----
-
-## 📫 How to Reach Me
-
-- 🌐 [noblesite.net](https://noblesite.net)
-- 💼 [LinkedIn](https://www.linkedin.com/in/jonathonpoe/)
-- 📧 jonathon [at] noblesite.net
+- Mobile: Swift, Objective-C, Kotlin, Java  
+- Backend: Python (FastAPI, Flask), Node.js  
+- DevOps: GitHub Actions, CI/CD, scripting  
+- AI/LLM: LangChain, QLoRA, vector DBs, agent frameworks
 
 ---
 
-_“Build fast, stay secure, and leave tech cleaner than you found it.”_
+## 📫 Get in Touch
+
+- 🌐 [noblesite.net](https://noblesite.net)  
+- 💼 [LinkedIn](https://www.linkedin.com/in/jonathon-poe-b5a01053/)  
+- 📧 jonathon [at] noblesite [dot] gmail [dot] com
+
+---
+
+_“Build fast. Stay secure. Leave tech cleaner than you found it.”_
