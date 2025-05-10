@@ -17,7 +17,7 @@ I specialize in:
 
 # **E.M.A. Application**
 
-**E.M.A.** is a private research project focused on building scalable, AI-driven automation tools for enterprise platform that exposes REST API's. It combines distributed processing, LLMs, and custom pipelines to create workflows for enterprise data orchestration, QA generation, and model training. 
+**E.M.A.** is a private research project focused on building scalable, AI-driven automation tools for enterprise platforms that exposes REST API's. It combines distributed processing, LLMs, and custom pipelines to create workflows for enterprise data orchestration, QA generation, and model training. 
 
 > ⚠️ This project is under active development and currently private.
 
