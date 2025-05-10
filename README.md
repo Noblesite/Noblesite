@@ -17,7 +17,9 @@ I specialize in:
 
 # **E.M.A. Application**
 
-**Enterprise Mobility Automation (E.M.A.)** is a robust platform designed to streamline workflows for managing enterprise mobility. The project leverages advanced machine learning techniques, distributed processing, and a modular architecture to deliver scalable and efficient solutions.
+**E.M.A.** is a private research project focused on building scalable, AI-driven automation tools for enterprise platform that exposes REST API's. It combines distributed processing, LLMs, and custom pipelines to create workflows for enterprise data orchestration, QA generation, and model training. 
+
+> ⚠️ This project is under active development and currently private.
 
 ---
 
@@ -88,59 +90,7 @@ E.M.A/
    - Supports QLoRA, DeepSpeed ZeRO-3, sliding context batching, and Flash Attention.
 
 5. **Deployment**:
-   - Deploy the fine-tuned model with the FastAPI backend for real-time inference.
-
----
-
-## **Installation**
-### **1. Clone the Repository**
-```bash
-git clone https://github.com/hidden/ema-application.git
-cd ema-application
-```
-
-### **2. Set Up Python Environment**
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-### **3. Configure YAML Files**
-- Update paths and parameters in `configs/` directory to match your environment.
-
-### **4. Start ChromaDB**
-```bash
-chromadb-server --host localhost --port 8000
-```
-
-### **5. Run QA Generation**
-```bash
-python scripts/run_qa_generation.py
-```
-
----
-
-## **Usage**
-### **1. Generate QA Pairs**
-```bash
-python scripts/run_qa_generation.py --config configs/qa_generation_config.yaml
-```
-
-### **2. Validate and Clean QA Pairs**
-```bash
-python qa_generation/cleaning_pipeline.py
-```
-
-### **3. Generate Embeddings**
-```bash
-python qa_generation/generate_embeddings.py
-```
-
-### **4. Fine-Tune Model**
-```bash
-python scripts/run_fine_tuning.py
-```
+   - Deploy the fine-tuned model with the FastAPI backend for real-time inference with token streaming. 
 
 ---
 
@@ -156,20 +106,6 @@ Configures ChromaDB for embedding storage and retrieval.
 
 ### **Fine-Tuning (`fine_tuning_config.yaml`)**
 Specifies fine-tuning hyperparameters, dataset paths, and model save locations.
-
----
-
-## **Key Dependencies**
-- **Python**: `3.8+`
-- **Hugging Face Transformers**: For model inference and fine-tuning.
-- **Ray**: For distributed processing.
-- **ChromaDB**: For embedding storage and retrieval.
-- **SentenceTransformers**: For generating text embeddings.
-- **Deepspeed**
-- **BitsAndBytes**
-- **Flash Attention**
-- **QLoRA**
-- **Pydantic**
 
 ---
 
