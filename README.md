@@ -94,21 +94,6 @@ E.M.A/
 
 ---
 
-## **Configuration**
-### **Global Settings (`ema_config.yaml`)**
-Defines project-wide settings like logging, API configurations, and database configurations.
-
-### **QA Generation (`qa_generation_config.yaml`)**
-Manages model settings, question templates, and dataset paths for QA generation.
-
-### **ChromaDB (`chroma_config.yaml`)**
-Configures ChromaDB for embedding storage and retrieval.
-
-### **Fine-Tuning (`fine_tuning_config.yaml`)**
-Specifies fine-tuning hyperparameters, dataset paths, and model save locations.
-
----
-
 ## **Future Enhancements**
 - Support for additional question types.
 - Automated hyperparameter tuning for fine-tuning workflows.
