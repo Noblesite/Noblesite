@@ -137,8 +137,9 @@ Python-based automation framework for interacting with Workspace ONE UEM APIs, f
 
 ## 🧰 Tools I Work With
 
-- Mobile: Swift, Objective-C, Kotlin, Java  
-- Backend: Python (FastAPI, Flask), Node.js  
+- Mobile: Swift, Objective-C, Kotlin, Java
+- Frontend: React Typescript Next.js Tailwind CSS PHP
+- Backend: Python (FastAPI, Flask), Node.js, Java (SpringBoot), C++, C# .NET, PHP
 - DevOps: GitHub Actions, CI/CD, scripting  
 - AI/LLM: LangChain, QLoRA, vector DBs, agent frameworks
 
