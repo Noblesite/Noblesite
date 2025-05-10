@@ -140,7 +140,7 @@ Python-based automation framework for interacting with Workspace ONE UEM APIs, f
 - Mobile: Swift, Objective-C, Kotlin, Java
 - Frontend: React Typescript Next.js Tailwind CSS PHP
 - Backend: Python (FastAPI, Flask), Node.js, Java (SpringBoot), C++, C# .NET, PHP
-- DevOps: GitHub Actions, CI/CD, scripting  
+- DevOps: GitHub Actions, CI/CD, scripting, Jenkins, Sonarqube
 - AI/LLM: LangChain, QLoRA, vector DBs, agent frameworks
 
 ---
