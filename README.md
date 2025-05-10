@@ -15,6 +15,175 @@ I specialize in:
 
 ## 🚀 Featured Project
 
+# **E.M.A. Application**
+
+**Enterprise Mobility Automation (E.M.A.)** is a robust platform designed to streamline workflows for managing enterprise mobility. The project leverages advanced machine learning techniques, distributed processing, and a modular architecture to deliver scalable and efficient solutions.
+
+---
+
+## **Features**
+- **QA Pair Generation**:
+  - Generates high-quality question-answer pairs for domain-specific datasets.
+  - Supports multiple question types: fact-based, why/how, multiple-choice, fill-in-the-blank, and true/false.
+- **ChromaDB Integration**:
+  - Enables retrieval-augmented generation (RAG) by storing and retrieving embeddings.
+- **Fine-Tuning Ready**:
+  - Supports fine-tuning large language models (e.g., LLaMA) with QLoRA for domain-specific tasks.
+- **Distributed Processing**:
+  - Scalable workload distribution using Ray for parallel processing.
+- **Validation and Cleaning**:
+  - Ensures generated QA pairs meet quality and consistency standards.
+- **Centralized Configuration**:
+  - YAML files for managing global and component-specific settings.
+- **Expansion Layer**:
+  - Multi-model QA generation and NER workflows.
+  - Directed prompt engineering logic for multi-purpose dataset creation.
+- **Preprocessing Layer**:
+  - Includes sliding-window context building, dataset cleaning, and key splitting.
+- **Distributed Layer**:
+  - Ray-based JSONL cleanup, sharding, and batch dispatching to models.
+- **Fine-Tuning Layer**:
+  - Deepspeed pipeline trainer, LoRA config support, sliding context batching.
+
+---
+
+## **Project Structure**
+```
+E.M.A/
+├── backend/                      # FastAPI backend
+├── configs/                     # YAML config files
+├── data_layer/                  # ChromaDB & ingestion logic
+├── distributed_data_layer/     # Large JSONL datasets for distributed QA
+├── distributed_processing/     # Ray actors and file distribution logic
+├── embedding/                  # Embedding generation scripts
+├── expansion_layer/            # Multi-model QA/NER workflows
+├── fine_tuning_layer/          # Deepspeed, QLoRA, dataset processing
+├── frontend/                   # React-based interface
+├── ingestion_layer/            # API/KB/Docs scraping utilities
+├── md_notes/                   # Markdown project notes
+├── model_layer/                # LLM engine & tool coordination logic
+├── preprocessing_layer/       # JSONL deduplication & formatting
+├── qa_generation/             # Legacy QA generation logic
+├── ray_cluster/               # Ray head/worker node management
+├── scripts/                   # Orchestration and utility scripts
+├── utilities/                 # Logging, validation, system tools
+├── workspace_one_workflows/  # Workspace ONE automation flows
+└── .env / requirements.txt    # Environment & dependencies
+```
+
+---
+
+## **Workflow**
+1. **Distributed Dataset Prep**:
+   - Shard, deduplicate, and clean raw datasets with `distributed_cleaning_pipeline.py`.
+2. **Dataset Preparation**:
+   - Validate and clean input datasets (e.g., `omnissa_apis_with_context_dataset.jsonl`).
+   - Generate embeddings and ingest them into ChromaDB.
+
+3. **QA Pair Generation**:
+   - Run the QA generation pipeline to create question-answer pairs using `run_qa_generation.py`.
+
+4. **Fine-Tuning**:
+   - Use `run_fine_tuning.py` to launch the `deepspeed_trainer.py` or `pipeline_trainer.py`.
+   - Supports QLoRA, DeepSpeed ZeRO-3, sliding context batching, and Flash Attention.
+
+5. **Deployment**:
+   - Deploy the fine-tuned model with the FastAPI backend for real-time inference.
+
+---
+
+## **Installation**
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/hidden/ema-application.git
+cd ema-application
+```
+
+### **2. Set Up Python Environment**
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### **3. Configure YAML Files**
+- Update paths and parameters in `configs/` directory to match your environment.
+
+### **4. Start ChromaDB**
+```bash
+chromadb-server --host localhost --port 8000
+```
+
+### **5. Run QA Generation**
+```bash
+python scripts/run_qa_generation.py
+```
+
+---
+
+## **Usage**
+### **1. Generate QA Pairs**
+```bash
+python scripts/run_qa_generation.py --config configs/qa_generation_config.yaml
+```
+
+### **2. Validate and Clean QA Pairs**
+```bash
+python qa_generation/cleaning_pipeline.py
+```
+
+### **3. Generate Embeddings**
+```bash
+python qa_generation/generate_embeddings.py
+```
+
+### **4. Fine-Tune Model**
+```bash
+python scripts/run_fine_tuning.py
+```
+
+---
+
+## **Configuration**
+### **Global Settings (`ema_config.yaml`)**
+Defines project-wide settings like logging, API configurations, and database configurations.
+
+### **QA Generation (`qa_generation_config.yaml`)**
+Manages model settings, question templates, and dataset paths for QA generation.
+
+### **ChromaDB (`chroma_config.yaml`)**
+Configures ChromaDB for embedding storage and retrieval.
+
+### **Fine-Tuning (`fine_tuning_config.yaml`)**
+Specifies fine-tuning hyperparameters, dataset paths, and model save locations.
+
+---
+
+## **Key Dependencies**
+- **Python**: `3.8+`
+- **Hugging Face Transformers**: For model inference and fine-tuning.
+- **Ray**: For distributed processing.
+- **ChromaDB**: For embedding storage and retrieval.
+- **SentenceTransformers**: For generating text embeddings.
+- **Deepspeed**
+- **BitsAndBytes**
+- **Flash Attention**
+- **QLoRA**
+- **Pydantic**
+
+---
+
+## **Future Enhancements**
+- Support for additional question types.
+- Automated hyperparameter tuning for fine-tuning workflows.
+- Advanced monitoring and analytics for QA pair generation.
+- LoRA weight merging utilities
+- Fine-tuned model hub export and quantization
+- Dataset tokenizer profiling for context budget planning
+
+---
+
+
 ### 🖨️ [EpsonLink](https://github.com/Noblesite/EpsonLink)  
 A fully native Android WebView wrapper for USB-connected Epson receipt printers using the ePOS2 SDK. Built for Android Enterprise deployments with a clean MVVM architecture and structured JSON print support.
 
