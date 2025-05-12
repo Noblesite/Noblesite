@@ -150,7 +150,7 @@ Python-based automation framework for interacting with Workspace ONE UEM APIs, f
 
 - 🌐 [noblesite.net](https://noblesite.net)  
 - 💼 [LinkedIn](https://www.linkedin.com/in/jonathon-poe-b5a01053/)  
-- 📧 jonathon [at] noblesite [dot] gmail [dot] com
+- 📧 noblesite [at] gmail [dot] com
 
 ---
 
