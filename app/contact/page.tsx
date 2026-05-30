@@ -1,4 +1,6 @@
 import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import MakerWorldIcon from '@/components/MakerWorldIcon';
+import { profileLinks } from '@/lib/profile-links';
 
 export default function Contact() {
   return (
@@ -15,18 +17,36 @@ export default function Contact() {
         <FaEnvelope className="text-xl" />
         Noblesite@gmail.com
       </a>
-      {/* Social Links */}
-      <div className="flex mt-8 gap-6">
-        {/* LinkedIn Placeholder */}
-        <div className="flex flex-col items-center">
-          <FaLinkedin className="text-blue-600 text-4xl" />
-          <span className="text-gray-600 mt-2">LinkedIn</span>
-        </div>
-        {/* GitHub Placeholder */}
-        <div className="flex flex-col items-center">
-          <FaGithub className="text-gray-800 text-4xl" />
-          <span className="text-gray-600 mt-2">GitHub</span>
-        </div>
+      <div className="mt-8 grid gap-4 sm:grid-cols-3">
+        <a
+          href={profileLinks.linkedin}
+          target="_blank"
+          rel="noreferrer"
+          className="flex min-w-40 flex-col items-center rounded-lg border border-gray-200 bg-white px-6 py-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-300"
+        >
+          <FaLinkedin className="text-blue-600 text-4xl" aria-hidden="true" />
+          <span className="text-gray-700 mt-2 font-semibold">LinkedIn</span>
+        </a>
+        <a
+          href={profileLinks.github}
+          target="_blank"
+          rel="noreferrer"
+          className="flex min-w-40 flex-col items-center rounded-lg border border-gray-200 bg-white px-6 py-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-300"
+        >
+          <FaGithub className="text-gray-900 text-4xl" aria-hidden="true" />
+          <span className="text-gray-700 mt-2 font-semibold">GitHub</span>
+        </a>
+        <a
+          href={profileLinks.makerworld}
+          target="_blank"
+          rel="noreferrer"
+          className="flex min-w-40 flex-col items-center rounded-lg border border-gray-200 bg-white px-6 py-5 shadow-sm transition hover:-translate-y-1 hover:border-blue-300"
+        >
+          <span className="flex h-10 w-10 items-center justify-center rounded-md bg-gray-950">
+            <MakerWorldIcon className="w-7" />
+          </span>
+          <span className="text-gray-700 mt-2 font-semibold">MakerWorld</span>
+        </a>
       </div>
     </section>
   );
