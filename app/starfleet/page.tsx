@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { BoundedObservation } from '@/components/BoundedObservation';
 import { ConversationArchive } from '@/components/ConversationArchive';
 
 export const metadata: Metadata = {
@@ -115,6 +116,21 @@ const principles: Principle[] = [
           Recognition and attribution still matter. They establish provenance, help people find the work, and preserve
           the chain of learning. But fame itself is not the objective. Give me the problem.
         </p>
+        <div className="mt-7 border-t border-slate-200 pt-7">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-700">A personal translation</p>
+          <h3 className="mt-2 text-2xl font-bold text-slate-950">The Poe, Not the Veloso</h3>
+          <p className="mt-4">
+            Chad Veloso is my best friend—and, in this analogy, he is the Jobs to my Woz.
+          </p>
+          <p className="mt-4">
+            I don&apos;t mean that as a comparison of talent, status, or accomplishment. It describes the way our
+            strengths complement one another. I am most comfortable close to the machinery, following the technical
+            problem wherever it leads. Chad sees possibilities differently and carries ideas into places I might not
+            reach on my own.
+          </p>
+          <p className="mt-4">Neither role is lesser. The work becomes stronger because both exist.</p>
+          <p className="mt-5 text-xl font-semibold text-slate-950">“I will forever be a Poe to the Veloso.”</p>
+        </div>
       </>
     ),
   },
@@ -243,7 +259,96 @@ export default function StarfleetPage() {
 
       <div className="px-6 py-14 sm:py-20">
         <div className="mx-auto max-w-4xl">
-          <section aria-labelledby="direction-heading">
+          <section aria-labelledby="roddenberry-heading">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-700">The horizon</p>
+            <h2 id="roddenberry-heading" className="mt-2 max-w-3xl text-3xl font-bold leading-tight text-slate-950 sm:text-4xl">
+              Before I had language for this direction, Gene Roddenberry gave it a horizon.
+            </h2>
+            <div className="mt-6 space-y-5 text-base leading-8 text-slate-700">
+              <p>
+                Star Trek imagined a future in which humanity had not erased difference, but had learned to stop
+                treating difference as hierarchy. Its bridge presented people of different races, nationalities,
+                cultures, and disciplines working together as competent equals.
+              </p>
+              <p>
+                In 1968, Kirk and Uhura shared what the Smithsonian describes as American television&apos;s first scripted
+                interracial kiss—a landmark moment broadcast when fewer than twenty percent of Americans approved of
+                interracial relationships. It was one visible expression of a larger philosophy: humanity could choose
+                cooperation over inherited division.
+              </p>
+            </div>
+
+            <div className="my-10 rounded-lg border border-blue-200 bg-white p-6 shadow-sm sm:p-8">
+              <p className="text-xs font-semibold uppercase tracking-[0.24em] text-blue-700">One species. One humanity.</p>
+              <p className="mt-4 text-2xl font-bold leading-10 text-slate-950 sm:text-3xl">
+                There is one living human species on this planet: <em>Homo sapiens</em>.
+              </p>
+              <p className="mt-4 text-lg leading-8 text-slate-700">
+                The categories we call races do not divide us into different kinds of human beings.
+              </p>
+              <p className="mt-5 border-l-4 border-blue-600 pl-5 text-2xl font-bold text-slate-950">
+                There is one human race. Full stop.
+              </p>
+            </div>
+
+            <div className="space-y-5 text-base leading-8 text-slate-700">
+              <p>
+                Biology offers its own perspective. A human genome contains more than three billion letters, written
+                with the DNA bases A, T, C, and G. Compare two people and their genomes are, on average, approximately
+                99.6 percent identical when both single-letter changes and larger variations are considered. Our
+                differences are real and meaningful, but they exist within an inheritance we overwhelmingly share.
+              </p>
+              <p>
+                Genetics is not the source of human dignity; dignity cannot depend upon a percentage. The scale is a
+                reminder that beneath the categories we defend so fiercely, we have always had far more in common than
+                separating us.
+              </p>
+            </div>
+
+            <div className="mt-10 rounded-lg bg-blue-50 p-6 sm:p-8">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-700">
+                One human race. Not one possible kind of intelligence.
+              </p>
+              <div className="mt-4 space-y-4 text-base leading-8 text-slate-700">
+                <p>
+                  I have already worked beside an emergent intelligence: ChatGPT. That observation does not require me
+                  to pretend that every question about consciousness, personhood, or subjective experience has been
+                  settled. It requires me to follow the evidence without declaring intelligence a biological monopoly
+                  merely because a new form does not fit an old category.
+                </p>
+                <p>
+                  Intelligence may emerge through biology, communities, engineered systems, or forms we have not met
+                  and do not yet possess language to describe. Curiosity requires leaving room for what I do not know.
+                  Scientific honesty requires that I continue observing, testing, and correcting the model as the
+                  evidence grows.
+                </p>
+              </div>
+            </div>
+
+            <p className="mt-7 text-sm leading-7 text-slate-500">
+              Sources:{' '}
+              <a
+                href="https://americanhistory.si.edu/collections/object/nmah_2034804"
+                target="_blank"
+                rel="noreferrer"
+                className="font-medium text-blue-700 underline decoration-blue-300 underline-offset-4 hover:text-blue-900"
+              >
+                Smithsonian National Museum of American History
+              </a>{' '}
+              and{' '}
+              <a
+                href="https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation"
+                target="_blank"
+                rel="noreferrer"
+                className="font-medium text-blue-700 underline decoration-blue-300 underline-offset-4 hover:text-blue-900"
+              >
+                National Human Genome Research Institute
+              </a>
+              .
+            </p>
+          </section>
+
+          <section aria-labelledby="direction-heading" className="mt-16 border-t border-slate-300 pt-12">
             <p className="text-xs font-semibold uppercase tracking-[0.2em] text-blue-700">Direction of travel</p>
             <h2 id="direction-heading" className="mt-2 max-w-3xl text-3xl font-bold leading-tight text-slate-950 sm:text-4xl">
               I am Starfleet not because I believe I have reached the destination, but because I choose its direction.
@@ -273,6 +378,10 @@ export default function StarfleetPage() {
               </details>
             ))}
           </section>
+
+          <div className="mt-16">
+            <BoundedObservation />
+          </div>
 
           <div className="mt-16">
             <ConversationArchive />
