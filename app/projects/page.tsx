@@ -102,7 +102,7 @@ export default async function Projects() {
             <div className="rounded-md bg-slate-100 p-4">
               <p className="text-3xl font-bold text-slate-950">50+</p>
               <p className="mt-1 text-sm font-semibold text-slate-600">
-                projects across my professional and personal engineering history
+                public and private repositories associated with my personal GitHub account
               </p>
             </div>
           </div>
@@ -111,10 +111,12 @@ export default async function Projects() {
               This is what I can currently show you—not what I am professionally working on.
             </p>
             <p>
-              The repositories below are the complete set I can presently share through public GitHub. They are not a
-              professional roadmap, a status feed, or a complete record of my engineering work. Much of that work must
-              remain private because it involves employer or client confidentiality, proprietary enterprise systems,
-              protected environments, active research, or material that is not available for public release.
+              The repositories below are the complete set I can presently share through public GitHub. The 50+ figure
+              refers only to repositories associated with my personal GitHub account; it does not represent or attempt
+              to quantify my professional portfolio. My professional work is separate and is not presented here as a
+              roadmap, status feed, or complete record because it may involve employer or client confidentiality,
+              proprietary enterprise systems, protected environments, active research, or material that is not
+              available for public release.
             </p>
           </div>
         </aside>
